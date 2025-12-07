@@ -1,8 +1,14 @@
-transformers
 streamlit
-pillow
-protobuf
-jinja2
-torch
-pytorch
 boto3
+transformers==4.41.2
+
+# TinyBERT requirements
+sentencepiece
+scikit-learn
+protobuf
+
+# Lightweight CPU-only PyTorch for Streamlit Cloud
+torch==2.0.0+cpu
+torchvision==0.15.0+cpu
+torchaudio==2.0.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
