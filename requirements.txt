@@ -5,5 +5,4 @@ protobuf
 jinja2
 torch
 pytorch
-torchvision
-torchaudio
+boto3
