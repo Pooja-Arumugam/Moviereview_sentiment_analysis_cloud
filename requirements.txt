@@ -6,7 +6,10 @@ transformers==4.41.2
 sentencepiece
 scikit-learn
 protobuf
-numpy
+
+# **Pin numpy for PyTorch CPU compatibility**
+numpy<2.0
+
 # Lightweight CPU-only PyTorch for Streamlit Cloud
 torch==2.0.0+cpu
 torchvision==0.15.0+cpu
